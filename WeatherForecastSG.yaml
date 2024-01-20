@@ -13,7 +13,7 @@ spec:
         app: WeatherForecastSG
     spec:
       containers:
-      - name: thridcrsg
+      - name: sivamcr
         image: sivamcr.azurecr.io/productrepos:latest1
         ports:
         - containerPort: 8080
