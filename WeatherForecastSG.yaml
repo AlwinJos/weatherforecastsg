@@ -13,8 +13,8 @@ spec:
         app: WeatherForecastSG
     spec:
       containers:
-      - name: sivamcr
-        image: sivamcr.azurecr.io/productrepos:latest1
+      - name: alwincr
+        image: alwincr.azurecr.io/productrepos:latest1
         ports:
         - containerPort: 8080
       imagePullSecrets:
